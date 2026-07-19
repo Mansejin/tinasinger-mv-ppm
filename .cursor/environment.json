@@ -1,0 +1,11 @@
+{
+  "name": "Tina Singer MV PPM",
+  "install": "echo 'Static HTML deck — no dependencies to install'",
+  "start": "python3 -m http.server 8765",
+  "ports": [
+    {
+      "name": "PPM deck preview",
+      "port": 8765
+    }
+  ]
+}
